@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+<p id="demo2"></p>
+<h1 id="myOutput"></h1>
+
+<script>
+    function myFunction(p1, p2) {
+        return p1 * p2;
+    }
+
+    function Addition(a1, a2) {
+        return a1 + a2;
+    }
+
+    function Division(b1, b2) {
+        return b1 / b2;
+    }
+
+    document.getElementById("demo").innerHTML = myFunction(4, 3);
+    document.getElementById("demo2").innerHTML = myFunction(5, 4);
+    document.getElementById("myOutput").innerHTML = myFunction(7, "55");
+    console.log(Addition(8, 2));
+    window.alert(Division(20, 4));
+
+</script>
+
+</body>
+</html>
